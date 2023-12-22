@@ -1,0 +1,133 @@
+.participant-container {
+  min-height: 100vh;
+  background-color: #9f9b99cf;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.rigth-side {
+  background-color: #d2cbcbc6;
+  height: 70vh;
+  width: 30%;
+  border-radius: 8px;
+  padding: 20px;
+}
+.participants-limit {
+  color: gray;
+  font-weight: bold;
+  margin: 5px 0 20px 0;
+}
+
+.participants-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lable {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0px 0px 6px 0px;
+}
+
+.input {
+  background-color: #fff;
+  height: 48px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #000;
+  width: 50%;
+  color: #fff;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  align-items: center;
+  font-weight: 600;
+}
+.plus {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.left-side {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.left-side-detiles {
+  margin-bottom: 60vh;
+}
+
+.participant-list-heaing {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.list-header {
+  display: flex;
+  gap: 150px;
+  padding: 0px 40px;
+  color: #9f9b99cf;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.participantsDataMap {
+  display: flex;
+  gap: 125px;
+  list-style: none;
+  padding: 15px 40px;
+  background-color: lightgray;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.participants-data-name {
+  width: 70px;
+}
+.participants-data-speed {
+  width: 90px;
+}
+.participants-data-start {
+  width: 60px;
+}
+.participants-data-end {
+  width: 90px;
+  padding-left: 40px;
+}
+
+.start-button {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 85%;
+  border: none;
+  background-color: rgb(255, 77, 0);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  transform: skew(-25deg);
+}
